@@ -5,7 +5,7 @@
 	flex-wrap:wrap;
 	width:200px;
 	height:200px;
-	
+	justify-content: center;
 }
 body {
       display: flex;
@@ -17,6 +17,11 @@ body {
 .item-1{
 	text-align: center;
 	order:1;
-	width:100%;
-	
+	width:100%;	
+}
+
+.item{
+	flex: 1 0 50%;
+	background-color:lightblue;
+	border: 1px solid black;
 }

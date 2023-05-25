@@ -1,5 +1,14 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-wrap:wrap;
+	width:200px;
+	height:200px;
+}
 .item-1{
 	text-align: center;
+	order:1;
+	width:100%;
+	
 }

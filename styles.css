@@ -5,7 +5,15 @@
 	flex-wrap:wrap;
 	width:200px;
 	height:200px;
+	
 }
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
 .item-1{
 	text-align: center;
 	order:1;
